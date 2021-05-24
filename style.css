@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pattaya&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Lobster", cursive;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.colour-container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 0 30px;
+}
+
+button {
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+}
